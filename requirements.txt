@@ -3,3 +3,5 @@ transformers==4.57.1
 seqeval==1.2.2
 pytorch-crf==0.7.2
 tokenizers==0.22.1
+flask==3.0.0
+flask-cors==4.0.0

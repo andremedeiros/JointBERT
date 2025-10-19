@@ -37,9 +37,15 @@ class Trainer(object):
         )
 
         # GPU or CPU
-        self.device = (
-            "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
-        )
+        # Priority: MPS (Metal) > CUDA > CPU
+        if torch.backends.mps.is_available() and torch.backends.mps.is_built() and not args.no_cuda:
+            self.device = "mps"
+        elif torch.cuda.is_available() and not args.no_cuda:
+            self.device = "cuda"
+        else:
+            self.device = "cpu"
+
+        logger.info(f"Using device: {self.device}")
         self.model.to(self.device)
 
     def train(self):

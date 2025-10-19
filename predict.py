@@ -13,7 +13,13 @@ logger = logging.getLogger(__name__)
 
 
 def get_device(pred_config):
-    return "cuda" if torch.cuda.is_available() and not pred_config.no_cuda else "cpu"
+    # Priority: MPS (Metal) > CUDA > CPU
+    if torch.backends.mps.is_available() and torch.backends.mps.is_built() and not pred_config.no_cuda:
+        return "mps"
+    elif torch.cuda.is_available() and not pred_config.no_cuda:
+        return "cuda"
+    else:
+        return "cpu"
 
 
 def get_args(pred_config):
@@ -129,6 +135,7 @@ def predict(pred_config):
     # load model and args
     args = get_args(pred_config)
     device = get_device(pred_config)
+    logger.info(f"Using device: {device}")
     model = load_model(pred_config, args, device)
     logger.info(args)
 

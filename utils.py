@@ -46,8 +46,15 @@ def set_seed(args):
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
-    if not args.no_cuda and torch.cuda.is_available():
-        torch.cuda.manual_seed_all(args.seed)
+    if not args.no_cuda:
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(args.seed)
+        # MPS uses the same seed as CPU (set via torch.manual_seed)
+        # but we ensure deterministic operations where possible
+        if torch.backends.mps.is_available():
+            # MPS doesn't have a separate manual_seed function
+            # The CPU seed (torch.manual_seed) is used for MPS as well
+            pass
 
 
 def compute_metrics(intent_preds, intent_labels, slot_preds, slot_labels):

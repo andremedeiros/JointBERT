@@ -4102,3 +4102,4 @@ O B-spell_name I-spell_name O B-target
 O B-spell_name O B-target
 O B-item_name I-item_name O B-target
 O B-spell_name O B-target
+O B-target O B-item_name
