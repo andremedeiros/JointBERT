@@ -17,7 +17,7 @@ def get_device(pred_config):
 
 
 def get_args(pred_config):
-    return torch.load(os.path.join(pred_config.model_dir, 'training_args.bin'))
+    return torch.load(os.path.join(pred_config.model_dir, 'training_args.bin'), weights_only=False)
 
 
 def load_model(pred_config, args, device):

@@ -5,7 +5,7 @@ from tqdm import tqdm, trange
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
-from transformers import BertConfig, AdamWeightDecay, get_linear_schedule_with_warmup
+from transformers import BertConfig, get_linear_schedule_with_warmup
 
 from utils import MODEL_CLASSES, compute_metrics, get_intent_labels, get_slot_labels
 
@@ -84,7 +84,7 @@ class Trainer(object):
                 "weight_decay": 0.0,
             },
         ]
-        optimizer = AdamWeightDecay(
+        optimizer = torch.optim.AdamW(
             optimizer_grouped_parameters,
             lr=self.args.learning_rate,
             eps=self.args.adam_epsilon,

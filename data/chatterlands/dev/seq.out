@@ -1,0 +1,513 @@
+O B-spell_name O O
+O B-target O B-weapon_name I-weapon_name
+O O B-location I-location
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O O B-location I-location
+O B-spell_name I-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O O B-location I-location
+O B-spell_name O B-target
+O B-object_name
+O B-item_name I-item_name O B-target
+O B-weapon_name
+O B-item_name O B-target
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O O B-location
+O B-item_name I-item_name O B-target
+O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O O
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-target
+O B-item_name I-item_name O B-target
+O B-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-object_name
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-object_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-item_name I-item_name
+O O B-npc_name
+O B-target O B-weapon_name
+O B-item_name O B-target
+O O B-object_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O O B-location
+O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-item_name O B-target
+O O B-location
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name I-item_name O B-target
+O B-item_name I-item_name
+O B-item_name I-item_name O O
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target
+O B-spell_name I-spell_name I-spell_name
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name
+O O B-npc_name
+O B-target
+O B-item_name I-item_name I-item_name O B-target
+O B-target
+O B-gear_name I-gear_name
+O B-spell_name O B-target
+O B-item_name I-item_name
+O B-object_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-item_name O B-target
+O B-item_name O B-target
+O B-target
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O O B-npc_name
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-spell_name O B-target
+O B-item_name I-item_name O O
+O B-gear_name I-gear_name
+O O B-location I-location
+O B-item_name I-item_name O B-target
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name I-weapon_name
+O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O O B-location
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O O B-npc_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O O B-npc_name I-npc_name
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name
+O B-spell_name O B-target
+O B-item_name I-item_name
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O O
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O O B-weapon_name
+O B-item_name I-item_name
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O O
+O O B-location I-location
+O B-gear_name I-gear_name
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O O
+O B-spell_name O B-target
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-target
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-gear_name I-gear_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O O
+O B-target
+O B-item_name I-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-gear_name I-gear_name
+O B-item_name I-item_name
+O B-gear_name I-gear_name I-gear_name
+O B-target O B-weapon_name
+O B-item_name I-item_name I-item_name I-item_name O O
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O O B-npc_name I-npc_name
+O B-gear_name I-gear_name I-gear_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O O B-location I-location
+O B-item_name O B-target
+O B-item_name I-item_name O B-target
+O O B-location
+O O B-location
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-item_name O B-target
+O B-target O B-weapon_name I-weapon_name
+O B-item_name I-item_name O B-target
+O B-direction
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name I-item_name O O
+O B-target O B-weapon_name
+O B-item_name I-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name I-item_name I-item_name
+O B-item_name I-item_name O O
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O O B-location
+O B-item_name O B-target
+O B-spell_name O B-target
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-gear_name I-gear_name I-gear_name
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-item_name
+O B-item_name I-item_name I-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O O
+O B-item_name I-item_name
+O B-item_name O O
+O B-item_name O O
+O B-item_name I-item_name O B-target
+O O B-location
+O B-target O B-weapon_name
+O B-item_name I-item_name O O
+O O B-npc_name I-npc_name
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-direction
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O O
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-object_name
+O B-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-target
+O B-item_name I-item_name I-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O O B-location
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name I-item_name O B-target
+O O B-gear_name I-gear_name
+O B-object_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O O
+O B-item_name O B-target
+O B-target O B-weapon_name
+O O B-item_name I-item_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O O
+O B-spell_name O B-target
+O O B-npc_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-direction
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O O B-location I-location
+O B-item_name I-item_name
+O B-weapon_name
+O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name
+O B-target O B-weapon_name
+O B-item_name O B-target
+O O B-item_name
+O B-spell_name O B-target
+O B-object_name
+O B-target O B-weapon_name
+O B-weapon_name
+O B-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O O B-location
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name I-item_name
+O O B-location
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name I-spell_name O O
+O B-target O B-weapon_name
+O B-spell_name O O
+O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O O B-location
+O B-gear_name I-gear_name
+O B-spell_name I-spell_name O O
+O B-target O B-weapon_name I-weapon_name
+O O B-gear_name I-gear_name
+B-spell_name O O B-target
+O B-spell_name O B-target
+O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name O B-target
+O B-spell_name O B-target
+O B-spell_name
+O B-spell_name O B-target
+O B-item_name I-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name
+O O B-location
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-spell_name O O
+O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O O
+O B-item_name O B-target
+O B-item_name I-item_name I-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O O B-location
+O B-gear_name I-gear_name I-gear_name
+O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-target
+O B-spell_name I-spell_name O O
+O B-target O B-weapon_name
+O B-item_name I-item_name
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name I-item_name O O
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target
+O B-target O B-weapon_name
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-target
+O B-item_name I-item_name O B-target
+O O B-location
+O B-target O B-weapon_name
+O B-spell_name I-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name I-weapon_name
+O B-item_name I-item_name O B-target
+O O B-gear_name I-gear_name I-gear_name
+O O B-gear_name I-gear_name
+O B-object_name
+O B-object_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-object_name
+O O B-item_name
+O B-spell_name I-spell_name O O
+O O B-location
+O B-weapon_name
+O B-target
+O B-gear_name I-gear_name
+O B-spell_name I-spell_name O B-target
+O B-gear_name I-gear_name I-gear_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name I-weapon_name
+O O B-location
+O O B-location
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name I-weapon_name
+O B-spell_name I-spell_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O O
+O B-item_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O O B-location
+O B-spell_name O B-target
+O B-item_name I-item_name O B-target
+O B-direction
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name O O
+O B-spell_name I-spell_name O O
+O B-item_name I-item_name O O
+O B-item_name O B-target
+O B-gear_name I-gear_name
+O B-target O B-weapon_name
+O B-item_name I-item_name I-item_name I-item_name O B-target
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-item_name I-item_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-spell_name I-spell_name O B-target
+O B-item_name O O
+O B-item_name O B-target
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O O B-location I-location
+O B-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O B-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-target O B-weapon_name
+O B-item_name I-item_name I-item_name
+O B-item_name I-item_name I-item_name O B-target
+O B-item_name I-item_name
+O B-target O B-weapon_name I-weapon_name
+O B-item_name I-item_name O B-target
+O B-target O B-weapon_name
+O B-spell_name I-spell_name O B-target
+O O B-location I-location
+O B-target O B-weapon_name
+O B-spell_name O B-target
+O O B-location I-location
